@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" ></script>
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" ></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" ></script>
+      <link rel="stylesheet" href="styles.css">
+      <title>Suggestion Classifier</title>
+   </head>
+
+   <body>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">SG</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link" href="#">About</a>
+      <a class="nav-item nav-link" href="#">Feature Engineering</a>
+      <a class="nav-item nav-link" href="#">Dataset</a>
+    </div>
+  </div>
+</nav>
+
+
+      <div class="container" >
+         <div class="center">
+         <div class="p-3 mb-2 text-dark w-100 p-3">
+            <div class="header_area w3-jumbo">
+               <h2 class="text-secondary display-2 ">NLP Suggestion Classifier</h2>
+            </div>
+            <h3 class="w3-xxxlarge w3-text-green" style="padding-bottom: 30px"><b>Classifies User reviews into Suggestions and Non-Suggestions</b></h3>
+            <div class="text_area">
+               <div class="input-group">
+                  <div class="input-group-prepend" style="padding-bottom: 30px">
+                     <span class="input-group-text" >User Review</span>
+                  </div>
+                  <input type="text" class="form-control" id="keyword" name="keyword" placeholder="Enter the review to be classified" >
+               </div>
+            </div>
+            <div class="buttons_area">
+               <button type="button" class="btn btn-primary btn-rounded btn-primary btn-lg" type="submit">Logistic Regression Classifier</button>
+               <button type="button" class="btn btn-danger btn-rounded btn-primary btn-lg" type="submit">SVM Classifier</button>
+               <button type="button" class="btn btn-secondary btn-rounded btn-primary btn-lg" type="submit">Naive Baiyes Classifier</button>
+               <button type="button" class="btn btn-success btn-rounded btn-primary btn-lg" type="submit">Random Forest Classifier</button>
+               <div style="padding-bottom: 5px"></div>
+               <button type="button" class="btn btn-info btn-rounded btn-primary btn-lg" type="submit">XGBoost Classifier</button>
+            </div>
+            <hr class="my-4">
+         </div>
+        </div>
+      </div>
+      </div>
+   </body>
+         <!-- Footer -->
+<footer class="page-footer font-small">
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">
+    <a href="#">© 2020 &#9829; | SYED ZUBEEN</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+</html>
+ 
